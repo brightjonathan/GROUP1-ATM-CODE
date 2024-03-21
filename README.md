@@ -36,7 +36,7 @@ These lines declare the prototypes of functions used in the program.
 
 
 STEP 5: int main() {
-         // Declarations
+          Declarations
        }
 This is the entry point of the program where execution begins. It contains the main logic of the ATM system.
 
@@ -64,23 +64,23 @@ This loop repeatedly displays the menu options and waits for user input until th
 STEP 8: Menu Options:
  switch (choice) {
      case 1:
-         // Register a new user
+         Register a new user
          break;
      case 2:
-         // Login
+         Login
          break;
      case 3:
-         // Quit
+          Quit
          return 0;
      default:
-         // Invalid choice
+         Invalid choice
  }
 
 The switch statement handles user input and calls corresponding functions based on the selected option.
 
 STEP 9: Register User Function:
  void registerUser(User users[], int& numUsers) {
-    // Implementation
+     Implementation
 
 }
 
@@ -89,7 +89,7 @@ This function allows a new user to register by entering their full name, PIN, an
 
 STEP 10: Login User Function:
 bool loginUser(User users[], int numUsers, User*& currentUser) {
-    // Implementation
+    Implementation
   }
 
 This function prompts the user to enter their PIN and verifies it against the stored PINs to log in.
@@ -97,7 +97,7 @@ This function prompts the user to enter their PIN and verifies it against the st
 
 STEP 11: Display Welcome Message Function:
   void displayWelcomeMessage(User* currentUser) {
-    // Implementation
+    Implementation
   }
 
 This function displays a welcome message to the logged-in user.
@@ -106,7 +106,7 @@ This function displays a welcome message to the logged-in user.
 
 STEP 12: Withdraw Money Function:
  double withdrawMoney(User* currentUser) {
-    // Implementation
+     Implementation
   }
 
 This function facilitates money withdrawal for the logged-in user.
@@ -115,7 +115,7 @@ This function facilitates money withdrawal for the logged-in user.
 STEP 13: Perform Another Withdrawal Function: 
 
   bool performAnotherWithdrawal() {
-    // Implementation
+     Implementation
   }
 
 This function asks the user if they want to perform another withdrawal and returns true if the user chooses to continue.
